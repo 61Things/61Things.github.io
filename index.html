@@ -35,7 +35,7 @@
     </head>
     
     <body>
-        <h1> 50+ things to do when you're bored  </h1>
+        <h1> <span id ="trendy-color">50</span> things to do when you're bored  </h1>
         <ol>
             <li id="neal"> Go to <a href="http://neal.fun" target_blank> this website</a> (I am not sponsored by them).</li>
             <li id="neal"> They have like 10 fun things which can keep you occupied, so you can just go on that website and look for yourself.
@@ -138,6 +138,10 @@
             nameEls.innerHTML = "annoyed";
             for (var i = 0; i < nameEls.length; i++) {
                 nameEls[i].innerHTML = "annoyed";
+                
+                var colorEl = document.getElementById("trendy-color");
+                    colorEl.innerHTML = "red";
+                    colorEl.style.color = "red";
         </script>
     </body>
 </html>
