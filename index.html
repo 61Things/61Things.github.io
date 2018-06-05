@@ -125,5 +125,13 @@
             <br>
             <li>Start a blog and a vlog</li>
         </ol>
+        <script> var nameEls = document.getElementsByTagName("h1");
+            console.log(nameEls);
+            // HTMLCollection
+            console.log(nameEls[0]);
+            nameEls.innerHTML = "E";
+            for (var i = 0; i < nameEls.length; i++) {
+                nameEls[i].innerHTML = "E";
+        </script>
     </body>
 </html>
