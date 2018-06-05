@@ -20,6 +20,10 @@
                 color: #FF005D
                 ;
             }
+            li {
+                border-style: solid;
+                border-color: #FF005D;
+            }
             #piskel {
                 padding: 50px;
                 width: 175px;
@@ -127,13 +131,13 @@
             <br>
             <li>Start a blog and a vlog</li>
         </ol>
-        <script> var nameEls = document.getElementsByTagName("li");
+        <script> var nameEls = document.getElementsByTagName("h1");
             console.log(nameEls);
             // HTMLCollection
             console.log(nameEls[0]);
-            nameEls.innerHTML = "E";
+            nameEls.innerHTML = "annoyed";
             for (var i = 0; i < nameEls.length; i++) {
-                nameEls[i].innerHTML = "E";
+                nameEls[i].innerHTML = "annoyed";
         </script>
     </body>
 </html>
